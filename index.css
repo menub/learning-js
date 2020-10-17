@@ -1,0 +1,193 @@
+.icon
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.img_black
+{
+    width: 35px;
+    height: 35px;
+    transform: translate(1px,2px);
+}
+.newclass
+{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+/*Making slider*/
+
+.slider
+{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+.image
+{
+    width: 100%;
+    height:600px;
+    display: none;
+}
+.next
+{
+    position: absolute;
+    top: 40%;
+    left: 92%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-style: none;
+    visibility: hidden;
+}
+.next:hover
+{
+    border: 1px solid coral;
+    color: coral;
+
+}
+.prev
+{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-style: none;
+    visibility: hidden;
+}
+.prev:hover
+{
+   border: 1px solid coral;
+    color: coral;
+}
+.slider:hover .next
+{
+    visibility: visible;
+}
+.slider:hover .prev
+{
+    visibility: visible;
+}
+
+.menu
+{
+    position: fixed;
+}
+.logo
+{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.me{
+    list-style: none;
+    float: left;
+    transform: translate(300px,20px);
+    margin-left:10px ;
+}
+.home_text 
+{
+    text-decoration: none;
+    align-self: stretch;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+.home_text:hover
+{
+    color: #ce7852;
+}
+.books_text
+{
+    text-decoration: none;
+    align-self: stretch;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 25px;
+    text-transform: uppercase;   
+}
+.books_text:hover
+{
+    color: #ce7852;
+}
+.notes_text
+{
+    text-decoration: none;
+    align-self: stretch;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 25px;
+    text-transform: uppercase;   
+}
+.notes_text:hover
+{
+    color: #ce7852;
+}
+.sell_text
+{
+    text-decoration: none;
+    align-self: stretch;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 25px;
+    text-transform: uppercase;   
+}
+.sell_text:hover
+{
+    color: #ce7852;
+}
+.about_text
+{
+    text-decoration: none;
+    align-self: stretch;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 25px;
+    text-transform: uppercase;   
+}
+.about_text:hover
+{
+    color: #ce7852;
+}
+
+/*--------------Heading _slider----------------*/
+.heading_slider
+{
+    transform: translate(100px,140px);
+}
+.heading1
+{
+    color: #3c3c3c;
+    font-size: 68px;
+    font-family: poppins;
+    font-weight: 700;
+    line-height: 1.2;
+     margin:0px ;
+}
+.heading2
+{
+    color: #ce7852;
+    font-size: 68px;
+    font-family: poppins;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/*---------------End---------------------*/
+.icon_search
+{
+    float: left;
+    list-style: none;
+    transform: translate(1200px,-310px);
+    margin: 20px;
+}
